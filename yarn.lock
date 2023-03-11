@@ -299,10 +299,13 @@
     "@chainlink/test-helpers" "0.0.5"
     "@chainlink/token" "^1.1.0"
 
-"@appliedblockchain/chainlink-plugins-fund-link@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@appliedblockchain/chainlink-plugins-fund-link/-/chainlink-plugins-fund-link-0.0.1.tgz#2e0339283083073a69fb8c9fa2050385b3fddfd2"
-  integrity sha512-2LjexuACeLKsjSEeDwJ/oBJiILA1KgqjzvQWP9NddQqM7QONQtAVlCcyCz2k4CjspIAwFQsTxW4CosXTJbRMyg==
+"@appliedblockchain/chainlink-plugins-fund-link@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@appliedblockchain/chainlink-plugins-fund-link/-/chainlink-plugins-fund-link-0.0.3.tgz#af3e0204cfc1570b17beb5fa92b131194ae8f1ef"
+  integrity sha512-npqEa6APijsjr2F/ZXCP399lXSOX8LwvNr7/dickx0G3V8vQ3GIiRDX1NueBPmx9O5i40V6nKNFZ3WWWzmvL9g==
+  dependencies:
+    "@appliedblockchain/chainlink-contracts" "0.0.4"
+    "@nomiclabs/hardhat-ethers" "^2.0.2"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.18.6":
   version "7.18.6"
@@ -1567,6 +1570,11 @@
     "@nomicfoundation/solidity-analyzer-win32-arm64-msvc" "0.0.3"
     "@nomicfoundation/solidity-analyzer-win32-ia32-msvc" "0.0.3"
     "@nomicfoundation/solidity-analyzer-win32-x64-msvc" "0.0.3"
+
+"@nomiclabs/hardhat-ethers@^2.0.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@nomiclabs/hardhat-ethers/-/hardhat-ethers-2.2.2.tgz#812d48929c3bf8fe840ec29eab4b613693467679"
+  integrity sha512-NLDlDFL2us07C0jB/9wzvR0kuLivChJWCXTKcj3yqjZqMoYp7g7wwS157F70VHx/+9gHIBGzak5pKDwG8gEefA==
 
 "@nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers@^0.3.0-beta.10":
   version "0.3.0-beta.13"
