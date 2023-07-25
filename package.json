@@ -40,7 +40,7 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@aave/core-v3": "^1.17.2",
+    "@aave/core-v3": "^1.19.0",
     "@aave/protocol-v2": "^1.0.1",
     "@appliedblockchain/chainlink-contracts": "0.0.4",
     "@appliedblockchain/chainlink-plugins-fund-link": "0.0.1",
